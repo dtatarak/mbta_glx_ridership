@@ -2,8 +2,6 @@
 
 Interactive metro-style visualization of MBTA Green Line Extension ridership data (2023-2025).
 
-![Preview](preview.png)
-
 ## Features
 
 - **Metro-style map** showing all GLX stations in geographical order
@@ -54,18 +52,10 @@ The visualization uses the **upperbound average daily ridership** (`highbound_av
 ## Station Layout
 
 ```
-Government Center ─── Haymarket ─── North Station ─── Science Park ─── Lechmere ─┬─ East Somerville ─── Gilman ─── Magoun ─── Ball ─── Medford/Tufts
-                                                                                  │
-                                                                                  └─ Union Square
+Science Park ─── Lechmere ─┬─ East Somerville ─── Gilman ─── Magoun ─── Ball ─── Medford/Tufts
+                           │
+                           └─ Union Square
 ```
-
-## Customization
-
-You can modify the notebook to:
-- Change color scheme (edit `YEAR_COLORS` dict)
-- Adjust circle sizing (edit `scale_size()` function)
-- Reorder stations (edit `STATION_ORDER` list)
-- Change station positions (edit `STATION_POSITIONS` dict)
 
 ## License
 
