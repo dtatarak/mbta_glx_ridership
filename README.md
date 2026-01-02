@@ -1,4 +1,4 @@
-# 🚇 GLX Ridership Metro Map
+# GLX Ridership Metro Map
 
 Interactive metro-style visualization of MBTA Green Line Extension ridership data (2023-2025).
 
@@ -14,8 +14,7 @@ Interactive metro-style visualization of MBTA Green Line Extension ridership dat
 ## Quick Start
 
 ### Option 1: View on GitHub
-Simply open `glx_ridership_map.ipynb` on GitHub — the Plotly charts render interactively!
-
+Simply navigate to the [landing page](https://dtatarak.github.io/mbta_glx_ridership/index.html), and the plots will render!
 ### Option 2: Run Locally
 
 ```bash
